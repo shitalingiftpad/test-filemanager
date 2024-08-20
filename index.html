@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Planner</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+  <div id="app" class="container mt-5">
+    <h1 class="mb-4">Programming File Manager</h1>
+    <div id="headerInput" class="input-group mb-3">
+      <input type="text" id="headerTitle" class="form-control" placeholder="Enter task name or issue name">
+      <button id="addHeaderBtn" class="btn btn-primary">Set Title</button>
+    </div>
+    <h2 id="headerDisplay" class="mb-4"></h2>
+    <div class="input-group mb-3">
+      <input type="text" id="taskInput" class="form-control" placeholder="Enter file name(Add path also for ease)">
+    </div>
+    <div class="input-group mb-3">
+      <textarea id="taskDescription" class="form-control" placeholder="Describe what to do in the file"></textarea>
+    </div>
+    <button id="addTaskBtn" class="btn btn-primary mb-3">Add File</button>
+  
+    <div id="msg" class="mb-3"></div>
+    <ul id="taskList" class="list-group"></ul>
+    <button id="removeTasksBtn" class="btn btn-danger mb-3">Refresh Storage</button>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
 
