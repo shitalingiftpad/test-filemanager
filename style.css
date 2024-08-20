@@ -1,0 +1,71 @@
+body.bg-light {
+    background-color: #f8f9fa;
+  }
+  
+  .container {
+    max-width: 800px;
+  }
+  
+  #headerDisplay {
+    display: none;
+    font-size: 24px;
+    color: #007bff;
+  }
+  
+  .status-pending {
+    color: gray;
+  }
+  
+  .status-done {
+    color: green;
+  }
+  
+  .status-pr {
+    color: orange;
+  }
+  
+  .status-review {
+    color: blue;
+  }
+  
+  .status-approved {
+    color: purple;
+  }
+  
+  .status-fixed {
+    color: teal;
+  }
+
+  #headerDisplay {
+    color:green;
+  }
+  .status-done {
+    background-color: #28a745; /* Green */
+    color: white;
+  }
+  
+  .status-pr {
+    background-color: #ffc107; /* Yellow */
+    color: black;
+  }
+  
+  .status-review {
+    background-color: #17a2b8; /* Blue */
+    color: white;
+  }
+  
+  .status-approved {
+    background-color: #007bff; /* Dark Blue */
+    color: white;
+  }
+  
+  .status-fixed {
+    background-color: #6f42c1; /* Purple */
+    color: white;
+  }
+  
+  .status-pending {
+    background-color: #6c757d; /* Gray */
+    color: white;
+  }
+  
